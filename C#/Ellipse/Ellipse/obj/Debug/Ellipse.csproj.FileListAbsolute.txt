@@ -1,0 +1,10 @@
+C:\Users\User\Desktop\Ellipse\Ellipse\bin\Debug\Ellipse.exe.config
+C:\Users\User\Desktop\Ellipse\Ellipse\bin\Debug\Ellipse.exe
+C:\Users\User\Desktop\Ellipse\Ellipse\bin\Debug\Ellipse.pdb
+C:\Users\User\Desktop\Ellipse\Ellipse\obj\Debug\Ellipse.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Ellipse\Ellipse\obj\Debug\Ellipse.Form1.resources
+C:\Users\User\Desktop\Ellipse\Ellipse\obj\Debug\Ellipse.Properties.Resources.resources
+C:\Users\User\Desktop\Ellipse\Ellipse\obj\Debug\Ellipse.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Ellipse\Ellipse\obj\Debug\Ellipse.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Ellipse\Ellipse\obj\Debug\Ellipse.exe
+C:\Users\User\Desktop\Ellipse\Ellipse\obj\Debug\Ellipse.pdb
