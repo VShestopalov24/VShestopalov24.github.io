@@ -1,9 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto.ttf");
+}
 
 body{
     margin: 0;
-    font-family: 'Roboto', sans-serif;
-    background-image: url(../img/Фон\ сайта.jpg);
+    font-family: "Roboto";
+    background-image: url(../img/Фон_сайта.jpg);
     background-size: contain;
 }
 
@@ -87,19 +90,19 @@ header{
     display: none;
 }
 
-.menu{
+.menu, .menu2{
     display: flex;
     list-style: none;
 }
 
-.menu li{
+.menu li, .menu2 li{
     width: 120px;
     height: 30px;
     font-size: 20px;
     text-align: center;
 }
 
-.menu a{
+.menu a, .menu2 a{
     line-height: 30px;
     text-decoration: none;
     color: white;
@@ -341,8 +344,29 @@ h3{
     margin: 0 auto;
 }
 
+.slider_otz{
+    margin: 30px auto;
+    margin-bottom: 0;
+    width: 1038px;
+    height: 456px;
+    overflow: hidden;
+}
+
+.polosa_otz{
+    display: flex;
+    height: 456px;
+    width: 2076px;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+
+.otz_block_m{
+    width: 346px;
+}
+
 .otz_block{
-    margin: 30px 20px 0 20px;
+    margin: 0 20px 0 20px;
     width: 300px;
     height: 450px;
     border-radius: 20px;
@@ -369,7 +393,7 @@ h3{
 
 .user{
     margin: 0;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 900;
     line-height: 50px;
 }
@@ -377,6 +401,16 @@ h3{
 .otz_text{
     margin: 30px 30px 0 30px;
     font-size: 14px;
+}
+
+.btns_otz{
+    display: flex;
+    justify-content: center;
+}
+
+.btns_otz img{
+    margin: 20px 10px 0 10px;
+    cursor: pointer;
 }
 
 .contacts{
@@ -625,7 +659,7 @@ footer{
         height: 100px;
     }
 
-    .menu li{
+    .menu li, .menu2 li{
         font-size: 16px;
     }
 
@@ -741,6 +775,20 @@ footer{
         height: 450px;
     }
 
+    .slider_otz{
+        width: 888px;
+        height: 436px;
+    }
+    
+    .polosa_otz{
+        height: 436px;
+        width: 1776px;
+    }
+    
+    .otz_block_m{
+        width: 296px;
+    }
+
     .otz_block{
         width: 250px;
         height: 430px;
@@ -751,7 +799,7 @@ footer{
     }
 
     .user{
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .otz_text{
@@ -817,12 +865,12 @@ footer{
         height: 80px;
     }
 
-    .menu li{
+    .menu li, .menu2 li{
         width: 90px;
         height: 20px;
         font-size: 14px;
     }
-    .menu a{
+    .menu a, .menu2 a{
         line-height: 20px;
     }
 
@@ -946,6 +994,20 @@ footer{
         border: 2px solid #03C8C8;
     }
 
+    .slider_otz{
+        width: 592px;
+        height: 356px;
+    }
+    
+    .polosa_otz{
+        height: 356px;
+        width: 1776px;
+    }
+    
+    .otz_block_m{
+        width: 296px;
+    }
+
     .otz_block{
         width: 250px;
         height: 350px;
@@ -1060,7 +1122,7 @@ footer{
         height: 60px;
     }
 
-    .menu li{
+    .menu li, .menu2 li{
         width: 85px;
         font-size: 12px;
     }
@@ -1096,6 +1158,20 @@ footer{
 
     .galery_block img{
         height: 250px;
+    }
+
+    .slider_otz{
+        width: 296px;
+        height: 356px;
+    }
+    
+    .polosa_otz{
+        height: 356px;
+        width: 1776px;
+    }
+    
+    .otz_block_m{
+        width: 296px;
     }
 
     h4{font-size: 14px;}
@@ -1194,6 +1270,7 @@ footer{
     }
 
     .photo{
+        margin: 0 auto;
         width: 80%;
     }
 
@@ -1222,6 +1299,31 @@ footer{
 
     iframe{
         width: 100%;
+    }
+
+    .popap_info{
+        margin: 20px auto;
+        padding: 10px;
+        width: 80%;
+        border-radius: 15px;
+    }
+
+    .close1, .close2, .close5, .close9, .close10, .close11, .close12, .close13, .close14, .close15, .close16, .close17, .close18{
+        height: 30px;
+    }
+
+    .popap_img{
+        width: 80%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .popap_prise{
+        font-size: 14px;
+    }
+
+    .popap_text_p{
+        font-size: 12px;
     }
 
 }

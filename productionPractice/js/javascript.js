@@ -129,6 +129,35 @@ function closePopap18() {
 }
 
 
+// Код для слайдера отзывов
+var leftOtz = 0;
+var number = 3;
+
+if(window.innerWidth < 979.97) number = 4;
+if(window.innerWidth < 699.97) number = 5;
+
+function OtzLeft() {
+    var polosaOtz = document.querySelector(".polosa_otz");
+    leftOtz += document.querySelector('.otz_block_m').offsetWidth;
+    if(leftOtz > 0){
+        leftOtz = -(document.querySelector('.otz_block_m').offsetWidth) * number;
+    }
+    polosaOtz.style.left = leftOtz + "px";
+}
+
+function OtzRight() {
+    var polosaOtz = document.querySelector(".polosa_otz");
+    leftOtz -= document.querySelector('.otz_block_m').offsetWidth;
+    if(leftOtz < -(document.querySelector('.otz_block_m').offsetWidth) * number){
+        leftOtz = 0;
+    }
+    polosaOtz.style.left = leftOtz + "px";
+}
+
+
+
+
+// Код для слайдера галереи
 autoSlider();
 
 var left = 0;
@@ -148,9 +177,9 @@ function autoSlider() {
 }
 
 
-
-let menuElem = document.getElementById('sweeties');
-let titleElem = menuElem.querySelector('.title');
+// Код для выпадающего меню
+var menuElem = document.getElementById('sweeties');
+var titleElem = menuElem.querySelector('.title');
 
 titleElem.onclick = function() {
     menuElem.classList.toggle('open');
