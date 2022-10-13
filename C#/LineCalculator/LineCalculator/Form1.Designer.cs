@@ -88,7 +88,6 @@ namespace LineCalculator
             this.textBox1.TabStop = false;
             this.textBox1.Text = "0";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             // 
             // button1
             // 
@@ -102,7 +101,6 @@ namespace LineCalculator
             this.button1.Text = "1";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            this.button1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.button1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.buttonArctg_KeyUp);
             // 
             // button2
@@ -117,7 +115,6 @@ namespace LineCalculator
             this.button2.Text = "2";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
-            this.button2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.button2.KeyUp += new System.Windows.Forms.KeyEventHandler(this.buttonArctg_KeyUp);
             // 
             // button3
@@ -132,7 +129,6 @@ namespace LineCalculator
             this.button3.Text = "3";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
-            this.button3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.button3.KeyUp += new System.Windows.Forms.KeyEventHandler(this.buttonArctg_KeyUp);
             // 
             // button4
@@ -147,7 +143,6 @@ namespace LineCalculator
             this.button4.Text = "4";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
-            this.button4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.button4.KeyUp += new System.Windows.Forms.KeyEventHandler(this.buttonArctg_KeyUp);
             // 
             // button5
@@ -162,7 +157,6 @@ namespace LineCalculator
             this.button5.Text = "5";
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
-            this.button5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.button5.KeyUp += new System.Windows.Forms.KeyEventHandler(this.buttonArctg_KeyUp);
             // 
             // button6
@@ -177,7 +171,6 @@ namespace LineCalculator
             this.button6.Text = "6";
             this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click);
-            this.button6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.button6.KeyUp += new System.Windows.Forms.KeyEventHandler(this.buttonArctg_KeyUp);
             // 
             // button7
@@ -192,7 +185,6 @@ namespace LineCalculator
             this.button7.Text = "7";
             this.button7.UseVisualStyleBackColor = false;
             this.button7.Click += new System.EventHandler(this.button7_Click);
-            this.button7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.button7.KeyUp += new System.Windows.Forms.KeyEventHandler(this.buttonArctg_KeyUp);
             // 
             // button8
@@ -207,7 +199,6 @@ namespace LineCalculator
             this.button8.Text = "8";
             this.button8.UseVisualStyleBackColor = false;
             this.button8.Click += new System.EventHandler(this.button8_Click);
-            this.button8.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.button8.KeyUp += new System.Windows.Forms.KeyEventHandler(this.buttonArctg_KeyUp);
             // 
             // button9
@@ -222,7 +213,6 @@ namespace LineCalculator
             this.button9.Text = "9";
             this.button9.UseVisualStyleBackColor = false;
             this.button9.Click += new System.EventHandler(this.button9_Click);
-            this.button9.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.button9.KeyUp += new System.Windows.Forms.KeyEventHandler(this.buttonArctg_KeyUp);
             // 
             // button0
@@ -237,7 +227,6 @@ namespace LineCalculator
             this.button0.Text = "0";
             this.button0.UseVisualStyleBackColor = false;
             this.button0.Click += new System.EventHandler(this.button0_Click);
-            this.button0.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.button0.KeyUp += new System.Windows.Forms.KeyEventHandler(this.buttonArctg_KeyUp);
             // 
             // button11
@@ -252,7 +241,6 @@ namespace LineCalculator
             this.button11.Text = "+";
             this.button11.UseVisualStyleBackColor = false;
             this.button11.Click += new System.EventHandler(this.button11_Click);
-            this.button11.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.button11.KeyUp += new System.Windows.Forms.KeyEventHandler(this.buttonArctg_KeyUp);
             // 
             // button12
@@ -267,7 +255,6 @@ namespace LineCalculator
             this.button12.Text = "-";
             this.button12.UseVisualStyleBackColor = false;
             this.button12.Click += new System.EventHandler(this.button12_Click);
-            this.button12.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.button12.KeyUp += new System.Windows.Forms.KeyEventHandler(this.buttonArctg_KeyUp);
             // 
             // button13
@@ -282,7 +269,6 @@ namespace LineCalculator
             this.button13.Text = "*";
             this.button13.UseVisualStyleBackColor = false;
             this.button13.Click += new System.EventHandler(this.button13_Click);
-            this.button13.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.button13.KeyUp += new System.Windows.Forms.KeyEventHandler(this.buttonArctg_KeyUp);
             // 
             // button14
@@ -297,7 +283,6 @@ namespace LineCalculator
             this.button14.Text = "/";
             this.button14.UseVisualStyleBackColor = false;
             this.button14.Click += new System.EventHandler(this.button14_Click);
-            this.button14.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.button14.KeyUp += new System.Windows.Forms.KeyEventHandler(this.buttonArctg_KeyUp);
             // 
             // buttonRezult
@@ -312,7 +297,6 @@ namespace LineCalculator
             this.buttonRezult.Text = "=";
             this.buttonRezult.UseVisualStyleBackColor = false;
             this.buttonRezult.Click += new System.EventHandler(this.buttonRezult_Click);
-            this.buttonRezult.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.buttonRezult.KeyUp += new System.Windows.Forms.KeyEventHandler(this.buttonArctg_KeyUp);
             // 
             // buttonPlusMinus
@@ -328,7 +312,6 @@ namespace LineCalculator
             this.toolTip1.SetToolTip(this.buttonPlusMinus, "Меняет знак на противоположный");
             this.buttonPlusMinus.UseVisualStyleBackColor = false;
             this.buttonPlusMinus.Click += new System.EventHandler(this.buttonPlusMinus_Click);
-            this.buttonPlusMinus.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.buttonPlusMinus.KeyUp += new System.Windows.Forms.KeyEventHandler(this.buttonArctg_KeyUp);
             // 
             // buttonCos
@@ -344,7 +327,6 @@ namespace LineCalculator
             this.toolTip1.SetToolTip(this.buttonCos, "Вывести Косинус");
             this.buttonCos.UseVisualStyleBackColor = false;
             this.buttonCos.Click += new System.EventHandler(this.buttonCos_Click);
-            this.buttonCos.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.buttonCos.KeyUp += new System.Windows.Forms.KeyEventHandler(this.buttonArctg_KeyUp);
             // 
             // buttonTg
@@ -360,7 +342,6 @@ namespace LineCalculator
             this.toolTip1.SetToolTip(this.buttonTg, "Вывести тангентс");
             this.buttonTg.UseVisualStyleBackColor = false;
             this.buttonTg.Click += new System.EventHandler(this.buttonTg_Click);
-            this.buttonTg.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.buttonTg.KeyUp += new System.Windows.Forms.KeyEventHandler(this.buttonArctg_KeyUp);
             // 
             // buttonExp
@@ -376,7 +357,6 @@ namespace LineCalculator
             this.toolTip1.SetToolTip(this.buttonExp, "Вывести экспоненту(Е в степени числа)");
             this.buttonExp.UseVisualStyleBackColor = false;
             this.buttonExp.Click += new System.EventHandler(this.buttonExp_Click);
-            this.buttonExp.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.buttonExp.KeyUp += new System.Windows.Forms.KeyEventHandler(this.buttonArctg_KeyUp);
             // 
             // button18
@@ -392,7 +372,6 @@ namespace LineCalculator
             this.toolTip1.SetToolTip(this.button18, "Разделить 1 на введенное число");
             this.button18.UseVisualStyleBackColor = false;
             this.button18.Click += new System.EventHandler(this.button18_Click);
-            this.button18.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.button18.KeyUp += new System.Windows.Forms.KeyEventHandler(this.buttonArctg_KeyUp);
             // 
             // buttonPi
@@ -405,10 +384,9 @@ namespace LineCalculator
             this.buttonPi.Size = new System.Drawing.Size(75, 50);
             this.buttonPi.TabIndex = 21;
             this.buttonPi.Text = "π";
-            this.toolTip1.SetToolTip(this.buttonPi, "Вывести число Пи (p)");
+            this.toolTip1.SetToolTip(this.buttonPi, "Вывести число Пи");
             this.buttonPi.UseVisualStyleBackColor = false;
             this.buttonPi.Click += new System.EventHandler(this.buttonPi_Click);
-            this.buttonPi.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.buttonPi.KeyUp += new System.Windows.Forms.KeyEventHandler(this.buttonArctg_KeyUp);
             // 
             // buttonDeg
@@ -424,7 +402,6 @@ namespace LineCalculator
             this.toolTip1.SetToolTip(this.buttonDeg, "Возвести в степень");
             this.buttonDeg.UseVisualStyleBackColor = false;
             this.buttonDeg.Click += new System.EventHandler(this.buttonDeg_Click);
-            this.buttonDeg.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.buttonDeg.KeyUp += new System.Windows.Forms.KeyEventHandler(this.buttonArctg_KeyUp);
             // 
             // buttonCube
@@ -440,7 +417,6 @@ namespace LineCalculator
             this.toolTip1.SetToolTip(this.buttonCube, "Возвести в куб");
             this.buttonCube.UseVisualStyleBackColor = false;
             this.buttonCube.Click += new System.EventHandler(this.buttonCube_Click);
-            this.buttonCube.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.buttonCube.KeyUp += new System.Windows.Forms.KeyEventHandler(this.buttonArctg_KeyUp);
             // 
             // buttonSqr
@@ -456,7 +432,6 @@ namespace LineCalculator
             this.toolTip1.SetToolTip(this.buttonSqr, "Возвести в квадрат");
             this.buttonSqr.UseVisualStyleBackColor = false;
             this.buttonSqr.Click += new System.EventHandler(this.buttonSqr_Click);
-            this.buttonSqr.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.buttonSqr.KeyUp += new System.Windows.Forms.KeyEventHandler(this.buttonArctg_KeyUp);
             // 
             // buttonLn
@@ -472,7 +447,6 @@ namespace LineCalculator
             this.toolTip1.SetToolTip(this.buttonLn, "Вывести натуральный логарифм");
             this.buttonLn.UseVisualStyleBackColor = false;
             this.buttonLn.Click += new System.EventHandler(this.buttonLn_Click);
-            this.buttonLn.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.buttonLn.KeyUp += new System.Windows.Forms.KeyEventHandler(this.buttonArctg_KeyUp);
             // 
             // buttonAbs
@@ -488,7 +462,6 @@ namespace LineCalculator
             this.toolTip1.SetToolTip(this.buttonAbs, "Вывести модуль числа");
             this.buttonAbs.UseVisualStyleBackColor = false;
             this.buttonAbs.Click += new System.EventHandler(this.buttonAbs_Click);
-            this.buttonAbs.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.buttonAbs.KeyUp += new System.Windows.Forms.KeyEventHandler(this.buttonArctg_KeyUp);
             // 
             // buttonSin
@@ -504,7 +477,6 @@ namespace LineCalculator
             this.toolTip1.SetToolTip(this.buttonSin, "Вывести Синус");
             this.buttonSin.UseVisualStyleBackColor = false;
             this.buttonSin.Click += new System.EventHandler(this.buttonSin_Click);
-            this.buttonSin.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.buttonSin.KeyUp += new System.Windows.Forms.KeyEventHandler(this.buttonArctg_KeyUp);
             // 
             // buttonLog
@@ -520,7 +492,6 @@ namespace LineCalculator
             this.toolTip1.SetToolTip(this.buttonLog, "Вывести логарифм с основанием 10");
             this.buttonLog.UseVisualStyleBackColor = false;
             this.buttonLog.Click += new System.EventHandler(this.buttonLog_Click);
-            this.buttonLog.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.buttonLog.KeyUp += new System.Windows.Forms.KeyEventHandler(this.buttonArctg_KeyUp);
             // 
             // buttonE
@@ -533,10 +504,9 @@ namespace LineCalculator
             this.buttonE.Size = new System.Drawing.Size(75, 50);
             this.buttonE.TabIndex = 29;
             this.buttonE.Text = "e";
-            this.toolTip1.SetToolTip(this.buttonE, "Вывести постоянную Е (e)");
+            this.toolTip1.SetToolTip(this.buttonE, "Вывести постоянную Е");
             this.buttonE.UseVisualStyleBackColor = false;
             this.buttonE.Click += new System.EventHandler(this.buttonE_Click);
-            this.buttonE.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.buttonE.KeyUp += new System.Windows.Forms.KeyEventHandler(this.buttonArctg_KeyUp);
             // 
             // buttonSqrt
@@ -552,7 +522,6 @@ namespace LineCalculator
             this.toolTip1.SetToolTip(this.buttonSqrt, "Извлеч квадратный корень");
             this.buttonSqrt.UseVisualStyleBackColor = false;
             this.buttonSqrt.Click += new System.EventHandler(this.buttonSqrt_Click);
-            this.buttonSqrt.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.buttonSqrt.KeyUp += new System.Windows.Forms.KeyEventHandler(this.buttonArctg_KeyUp);
             // 
             // buttonF
@@ -568,7 +537,6 @@ namespace LineCalculator
             this.toolTip1.SetToolTip(this.buttonF, "Вывести факториал");
             this.buttonF.UseVisualStyleBackColor = false;
             this.buttonF.Click += new System.EventHandler(this.buttonF_Click);
-            this.buttonF.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.buttonF.KeyUp += new System.Windows.Forms.KeyEventHandler(this.buttonArctg_KeyUp);
             // 
             // buttonMC
@@ -584,7 +552,6 @@ namespace LineCalculator
             this.toolTip1.SetToolTip(this.buttonMC, "Очистить память");
             this.buttonMC.UseVisualStyleBackColor = false;
             this.buttonMC.Click += new System.EventHandler(this.buttonMC_Click);
-            this.buttonMC.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.buttonMC.KeyUp += new System.Windows.Forms.KeyEventHandler(this.buttonArctg_KeyUp);
             // 
             // buttonMR
@@ -600,7 +567,6 @@ namespace LineCalculator
             this.toolTip1.SetToolTip(this.buttonMR, "Вывести число из памяти");
             this.buttonMR.UseVisualStyleBackColor = false;
             this.buttonMR.Click += new System.EventHandler(this.buttonMR_Click);
-            this.buttonMR.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.buttonMR.KeyUp += new System.Windows.Forms.KeyEventHandler(this.buttonArctg_KeyUp);
             // 
             // buttonM
@@ -616,7 +582,6 @@ namespace LineCalculator
             this.toolTip1.SetToolTip(this.buttonM, "Внести число в память");
             this.buttonM.UseVisualStyleBackColor = false;
             this.buttonM.Click += new System.EventHandler(this.buttonM_Click);
-            this.buttonM.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.buttonM.KeyUp += new System.Windows.Forms.KeyEventHandler(this.buttonArctg_KeyUp);
             // 
             // buttonBackspace
@@ -632,7 +597,6 @@ namespace LineCalculator
             this.toolTip1.SetToolTip(this.buttonBackspace, "Удаление символа");
             this.buttonBackspace.UseVisualStyleBackColor = false;
             this.buttonBackspace.Click += new System.EventHandler(this.buttonBackspace_Click);
-            this.buttonBackspace.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.buttonBackspace.KeyUp += new System.Windows.Forms.KeyEventHandler(this.buttonArctg_KeyUp);
             // 
             // buttonCE
@@ -648,7 +612,6 @@ namespace LineCalculator
             this.toolTip1.SetToolTip(this.buttonCE, "Очистить поле");
             this.buttonCE.UseVisualStyleBackColor = false;
             this.buttonCE.Click += new System.EventHandler(this.buttonCE_Click);
-            this.buttonCE.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.buttonCE.KeyUp += new System.Windows.Forms.KeyEventHandler(this.buttonArctg_KeyUp);
             // 
             // buttonC
@@ -664,7 +627,6 @@ namespace LineCalculator
             this.toolTip1.SetToolTip(this.buttonC, "Очистить");
             this.buttonC.UseVisualStyleBackColor = false;
             this.buttonC.Click += new System.EventHandler(this.buttonC_Click);
-            this.buttonC.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.buttonC.KeyUp += new System.Windows.Forms.KeyEventHandler(this.buttonArctg_KeyUp);
             // 
             // buttonPoint
@@ -679,7 +641,6 @@ namespace LineCalculator
             this.buttonPoint.Text = ",";
             this.buttonPoint.UseVisualStyleBackColor = false;
             this.buttonPoint.Click += new System.EventHandler(this.buttonPoint_Click);
-            this.buttonPoint.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.buttonPoint.KeyUp += new System.Windows.Forms.KeyEventHandler(this.buttonArctg_KeyUp);
             // 
             // buttonArcsin
@@ -695,7 +656,6 @@ namespace LineCalculator
             this.toolTip1.SetToolTip(this.buttonArcsin, "Вывести arcsin");
             this.buttonArcsin.UseVisualStyleBackColor = false;
             this.buttonArcsin.Click += new System.EventHandler(this.buttonArcsin_Click);
-            this.buttonArcsin.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.buttonArcsin.KeyUp += new System.Windows.Forms.KeyEventHandler(this.buttonArctg_KeyUp);
             // 
             // buttonArccos
@@ -711,7 +671,6 @@ namespace LineCalculator
             this.toolTip1.SetToolTip(this.buttonArccos, "Вывести arccos");
             this.buttonArccos.UseVisualStyleBackColor = false;
             this.buttonArccos.Click += new System.EventHandler(this.buttonArccos_Click);
-            this.buttonArccos.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.buttonArccos.KeyUp += new System.Windows.Forms.KeyEventHandler(this.buttonArctg_KeyUp);
             // 
             // buttonArctg
@@ -727,7 +686,6 @@ namespace LineCalculator
             this.toolTip1.SetToolTip(this.buttonArctg, "Вывести arctg");
             this.buttonArctg.UseVisualStyleBackColor = false;
             this.buttonArctg.Click += new System.EventHandler(this.buttonArctg_Click);
-            this.buttonArctg.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.buttonArctg.KeyUp += new System.Windows.Forms.KeyEventHandler(this.buttonArctg_KeyUp);
             // 
             // Form1

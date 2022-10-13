@@ -419,19 +419,12 @@ namespace LineCalculator
                 case '/': 
                     button14_Click(button14, null); 
                     break;
-                case '=':
-                    buttonRezult_Click(buttonRezult, null);
-                    break;
                 case ',':
                 case '.': 
                     buttonPoint_Click(buttonPoint, null); 
                     break;
-                case 'p': buttonPi_Click(buttonPi, null);
+                case 'π': buttonPi_Click(buttonPi, null);
                     break;
-                case 'e':
-                    buttonE_Click(buttonE, null);
-                    break;
-                case '\b': buttonBackspace_Click(buttonBackspace, null); break;
             }
         }
 
