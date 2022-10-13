@@ -1,0 +1,10 @@
+D:\ОП_Шестопалов\Задание14_Шестопалов_ИСиП-22\QuadraticEquation\QuadraticEquation\bin\Debug\QuadraticEquation.exe.config
+D:\ОП_Шестопалов\Задание14_Шестопалов_ИСиП-22\QuadraticEquation\QuadraticEquation\bin\Debug\QuadraticEquation.exe
+D:\ОП_Шестопалов\Задание14_Шестопалов_ИСиП-22\QuadraticEquation\QuadraticEquation\bin\Debug\QuadraticEquation.pdb
+D:\ОП_Шестопалов\Задание14_Шестопалов_ИСиП-22\QuadraticEquation\QuadraticEquation\obj\Debug\QuadraticEquation.csproj.AssemblyReference.cache
+D:\ОП_Шестопалов\Задание14_Шестопалов_ИСиП-22\QuadraticEquation\QuadraticEquation\obj\Debug\QuadraticEquation.Form1.resources
+D:\ОП_Шестопалов\Задание14_Шестопалов_ИСиП-22\QuadraticEquation\QuadraticEquation\obj\Debug\QuadraticEquation.Properties.Resources.resources
+D:\ОП_Шестопалов\Задание14_Шестопалов_ИСиП-22\QuadraticEquation\QuadraticEquation\obj\Debug\QuadraticEquation.csproj.GenerateResource.cache
+D:\ОП_Шестопалов\Задание14_Шестопалов_ИСиП-22\QuadraticEquation\QuadraticEquation\obj\Debug\QuadraticEquation.csproj.CoreCompileInputs.cache
+D:\ОП_Шестопалов\Задание14_Шестопалов_ИСиП-22\QuadraticEquation\QuadraticEquation\obj\Debug\QuadraticEquation.exe
+D:\ОП_Шестопалов\Задание14_Шестопалов_ИСиП-22\QuadraticEquation\QuadraticEquation\obj\Debug\QuadraticEquation.pdb

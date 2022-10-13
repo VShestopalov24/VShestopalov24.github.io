@@ -1,0 +1,10 @@
+D:\ОП_Шестопалов\Задание14_Шестопалов_ИСиП-22\MatrixDeterminant\MatrixDeterminant\bin\Debug\MatrixDeterminant.exe.config
+D:\ОП_Шестопалов\Задание14_Шестопалов_ИСиП-22\MatrixDeterminant\MatrixDeterminant\bin\Debug\MatrixDeterminant.exe
+D:\ОП_Шестопалов\Задание14_Шестопалов_ИСиП-22\MatrixDeterminant\MatrixDeterminant\bin\Debug\MatrixDeterminant.pdb
+D:\ОП_Шестопалов\Задание14_Шестопалов_ИСиП-22\MatrixDeterminant\MatrixDeterminant\obj\Debug\MatrixDeterminant.csproj.AssemblyReference.cache
+D:\ОП_Шестопалов\Задание14_Шестопалов_ИСиП-22\MatrixDeterminant\MatrixDeterminant\obj\Debug\MatrixDeterminant.Form1.resources
+D:\ОП_Шестопалов\Задание14_Шестопалов_ИСиП-22\MatrixDeterminant\MatrixDeterminant\obj\Debug\MatrixDeterminant.Properties.Resources.resources
+D:\ОП_Шестопалов\Задание14_Шестопалов_ИСиП-22\MatrixDeterminant\MatrixDeterminant\obj\Debug\MatrixDeterminant.csproj.GenerateResource.cache
+D:\ОП_Шестопалов\Задание14_Шестопалов_ИСиП-22\MatrixDeterminant\MatrixDeterminant\obj\Debug\MatrixDeterminant.csproj.CoreCompileInputs.cache
+D:\ОП_Шестопалов\Задание14_Шестопалов_ИСиП-22\MatrixDeterminant\MatrixDeterminant\obj\Debug\MatrixDeterminant.exe
+D:\ОП_Шестопалов\Задание14_Шестопалов_ИСиП-22\MatrixDeterminant\MatrixDeterminant\obj\Debug\MatrixDeterminant.pdb
