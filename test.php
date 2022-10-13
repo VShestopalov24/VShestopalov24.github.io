@@ -7,7 +7,10 @@
     <title>Tест</title>
 </head>
 <body>
-    echo "Hello World";
+    
+    <?php
+        echo "Hello World";
+    ?>
     
     <style>
         body{
