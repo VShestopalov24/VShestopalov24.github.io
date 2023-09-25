@@ -5,60 +5,124 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
-    <title>Главная</title>
+    <title>Портфолио</title>
 </head>
 <body>
 
     <!-- Шапка -->
-    <header>
-        <div class="container flex">
-            <img src="img/логотип.jfif" alt="Logo" class="logo">
-            <div class="menu">
-                <li><a href="index.html">Главная</a></li>
-                <li><a href="#">Работы</a></li>
-            </div>
-            <div class="social">
-                <a href="#"><img src="img/vk.png" alt="Vk"></a>
-                <a href="#"><img src="img/telegramm.png" alt="Telegram"></a>
-            </div>
-        </div>
+    <header class="flex">
+        <a href="#" class="name">Slava Shestopalov</a>
+        <menu>
+            <li><a href="#">Обо мне</a></li>
+            <li><a href="#">Навыки</a></li>
+            <li><a href="#">Работы</a></li>
+        </menu>
     </header>
 
-    <!-- Мои работы -->
-    <div class="works">
-        <div class="container">
-            <div class="works_blocks">
-
-                <div class="work_block">
-                    <img src="img/Учебная_практика.png" alt="Учебная практика" class="img_work">
-                    <p class="name_work">Учебная практика</p>
-                    <div class="a_work"><a href="educationalPractice/home.html">Смотреть</a></div>
-                </div>
-
-                <div class="work_block">
-                    <img src="img/Производственная_практика.png" alt="Производственная практика" class="img_work">
-                    <p class="name_work">Производственная практика</p>
-                    <div class="a_work"><a href="productionPractice/home.html">Смотреть</a></div>
-                </div>
-
-                <div class="work_block">
-                    <img src="img/Keksby.png" alt="The Great Keksby" class="img_work">
-                    <p class="name_work">The Great Keksby</p>
-                    <div class="a_work"><a href="Keksby/home.html">Смотреть</a></div>
-                </div>
-
+    <!-- Обо мне -->
+    <div class="about-me container">
+        <div class="flex">
+            <div>
+                <h2>Обо мне</h2>
+                <p>Здравствуйте, мне 19 лет, учусь в Тольяттинском социально
+                    - педагогическом колледже по специальности разработчик web и 
+                    мультимедийных приложений.</p>
             </div>
+            
+            <img src="img/01.jpg" alt="Картинка">
         </div>
     </div>
+
+    <!-- Навыки -->
+    <div class="container">
+        <h2>Мои навыки</h2>
+        <ul class="flex">
+            <li class="item-skill">
+                <img src="img/Figma.svg" alt="Figma">
+                <p>Figma</p>
+            </li>
+            <li class="item-skill">
+                <img src="img/Photoshop.png" alt="PhotoShop">
+                <p>PhotoShop</p>
+            </li>
+            <li class="item-skill">
+                <img src="img/html.png" alt="HTML">
+                <p>HTML</p>
+            </li>
+            <li class="item-skill">
+                <img src="img/css.png" alt="CSS">
+                <p>CSS</p>
+            </li>
+            <li class="item-skill">
+                <img src="img/JS.png" alt="JavaScript">
+                <p>JavaScript (Изучаю)</p>
+            </li>
+            <li class="item-skill">
+                <img src="img/php.png" alt="PHP">
+                <p>PHP (Изучаю)</p>
+            </li>
+        </ol>
+    </div>
+
+    <!-- Мои работы -->
+    
+        <div class="container">
+            <h2>Портфолио</h2>
+            <div class="flex-works">
+
+                <div class="item-work">
+                    <img src="/img/Sirovarochka.jpg" alt="Сыроварочка">
+                    <a href="http://shestopalov2.kridom.ru" target="_blank">Сыроварочка (Joomla)</a>
+                    <p></p>
+                </div>
+
+                <div class="item-work">
+                    <img src="/img/ekopark.jpg" alt="ЭкоПарк Тольятти">
+                    <a href="/productionPractice/home.html" target="_blank">ЭкоПарк Тольятти (Производственная практика 2 курс)</a>
+                </div>
+
+                <div class="item-work">
+                    <img src="/img/barbershop.jpg" alt="Барбершоп">
+                    <a href="/educationalPractice/home.html" target="_blank">Барбершоп (Учебная практика 2 курс)</a>
+                </div>
+
+                <div class="item-work">
+                    <img src="/img/volzhanka.jpg" alt="ИС Волжанка">
+                    <a href="http://v96084yw.beget.tech/VolzhankaSystem/" target="_blank">ИС "Волжанка"</a>
+                </div>
+
+                <div class="item-work">
+                    <img src="/img/keksby.jpg" alt="Keksby">
+                    <a href="/Keksby/home.html" target="_blank">Keksby</a>
+                </div>
+
+                <div class="item-work">
+                    <img src="/img/qwery.jpg" alt="QWERy">
+                    <a href="/QWERy(Доделать подвал)/home.html" target="_blank">QWERy</a>
+                </div>
+
+                <div class="item-work">
+                    <img src="/img/burningman.jpg" alt="BurningMan">
+                    <a href="/burningMan/home.html" target="_blank">BurningMan</a>
+                </div>
+
+                <div class="item-work">
+                    <img src="/img/work1.jpg" alt="Верстка сайта">
+                    <a href="/work1/index.html" target="_blank">Верстка сайта</a>
+                </div>
+            </div>
+        </div>
+    
 
     <!-- Подвал -->
     <footer>
         <div class="container flex">
-            <img src="img/логотип.jfif" alt="Logo" class="logo">
-            <p class="copyright">© Шестопалов В.А.</p>
+            
+            <a href="#" class="name">Slava Shestopalov</a>
+            <p class="copyright">© Copyright 2023</p>
             <div class="social">
-                <a href="#"><img src="img/vk.png" alt="Vk"></a>
-                <a href="#"><img src="img/telegramm.png" alt="Telegram"></a>
+                <a href="https://vk.com/id177206575" target="_blank"><img src="img/vk.png" alt="Vk"></a>
+                <a href="https://t.me/the_F0ol" target="_blank"><img src="img/telegramm.png" alt="Telegram"></a>
             </div>
         </div>
     </footer>
