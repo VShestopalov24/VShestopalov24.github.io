@@ -14,16 +14,18 @@
 
         <h1>Login to get started</h1>
 
-        <input type="text" name="login" id="login-input" placeholder="Please enter Mobile/Email address">
-        <input type="password" name="password" id="password-input" placeholder="Password">
+        <input type="text" name="login" id="loginInput" placeholder="Please enter Mobile/Email address" pattern="^((\+7|7|8)+([0-9]){10})$" required>
+        <input type="password" name="password" id="passwordInput" placeholder="Password" minlength="8" required>
 
         <button type="submit">Sign in</button>
 
-        <a href="/">Forgot password?</a>
+        <a href="registration.html">Registration</a>
 
     </form>
 
-    <a href="/">Back to website</a>
+    <a href="#">Back to website</a>
+
+    <script src="javascript/main.js"></script>
 
 </body>
 </html>
