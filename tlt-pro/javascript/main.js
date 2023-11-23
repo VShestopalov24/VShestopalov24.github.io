@@ -1,4 +1,3 @@
-const loginInput = document.getElementById('loginInput');
 const nameInput = document.getElementById('nameInput');
 const phoneInput = document.getElementById('phoneInput');
 const emailInput = document.getElementById('emailInput');
@@ -39,18 +38,5 @@ emailInput.addEventListener('invalid', () => {
         emailInput.setCustomValidity('Введите свой E-mail!');
     } else {
         emailInput.setCustomValidity('Номер должен иметь формат login@site.com. Повторите ещё раз!');
-    }
-});
-
-loginInput.addEventListener('input', () => {
-    loginInput.setCustomValidity('');
-    loginInput.checkValidity();
-});
-
-loginInput.addEventListener('invalid', () => {
-    if(loginInput.value === '') {
-        loginInput.setCustomValidity('Введите свой E-mail! или телефон');
-    } else {
-        loginInput.setCustomValidity('Номер должен иметь формат login@site.com или +70000000000. Повторите ещё раз!');
     }
 });
