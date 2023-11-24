@@ -36,8 +36,7 @@ h1{
 }
 
 input{
-    padding-left: 20px;
-    height: 45px;
+    padding: 10px 0 10px 20px;
     width: 426px;
     background: rgba(49, 49, 49, 0.9);
     border: 0;
