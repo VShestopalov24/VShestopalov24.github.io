@@ -98,6 +98,10 @@ label a{
     color: #8d8d8d;
 }
 
+.linkBack{
+    margin-bottom: 20px;
+}
+
 
 @media (max-width:666px) {
 
