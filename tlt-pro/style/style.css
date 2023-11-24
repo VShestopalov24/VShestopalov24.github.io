@@ -84,7 +84,10 @@ a{
     font-weight: 500;
     color: #ffffff;
 }
-
+a:hover{
+    color: #7c7c7c;
+    text-decoration: underline;
+}
 
 input[type="checkbox"]{
     width: 19px;
