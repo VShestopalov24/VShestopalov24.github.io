@@ -67,6 +67,9 @@ button{
     border-radius: 60px;
     cursor: pointer;
 }
+button:hover{
+    background-color: #a90f24;
+}
 
 form a{
     text-decoration: none;
