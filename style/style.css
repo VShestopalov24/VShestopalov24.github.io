@@ -66,7 +66,8 @@ menu a:hover{
 }
 
 .about-me{
-    margin: 50px 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .about-me .flex div{
